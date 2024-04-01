@@ -1,0 +1,178 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.header__top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid #e5e5e5;
+  gap: 400px; }
+  .header__top__left {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header__top__left__st {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #252525;
+      padding: 20px 20px 20px 0px;
+      gap: 9px;
+      border-right: 1px solid #e5e5e5; }
+      .header__top__left__st i {
+        font-size: 16px;
+        line-height: 0px; }
+    .header__top__left__nd {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #252525;
+      padding: 15px 0px 12px 20px;
+      gap: 9px; }
+      .header__top__left__nd i {
+        font-size: 11px;
+        line-height: 0px; }
+      .header__top__left__nd p {
+        font-size: 14px;
+        line-height: 27px; }
+  .header__top__right {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .header__top__right__st {
+      border-right: 1px solid #e5e5e5;
+      color: #252525;
+      padding: 20px 20px 20px 0px;
+      gap: 0px; }
+      .header__top__right__st a {
+        color: #252525;
+        padding: 0px;
+        gap: 0px;
+        font-size: 14px;
+        line-height: 0px;
+        margin-left: 15px; }
+    .header__top__right__nd {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #252525;
+      padding: 0px 20px;
+      gap: 9px;
+      cursor: pointer; }
+      .header__top__right__nd p {
+        color: #252525;
+        font-size: 14px; }
+      .header__top__right__nd i {
+        cursor: pointer;
+        font-size: 9px; }
+    .header__top__right__rd {
+      border-left: 1px solid #e5e5e5;
+      color: #252525;
+      padding: 20px 0px 20px 20px;
+      gap: 0; }
+      .header__top__right__rd a {
+        font-size: 14px;
+        color: #252525; }
+        .header__top__right__rd a i {
+          padding-right: 5px; }
+
+.header__middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 39px 0;
+  margin: 0px 10px 0px 10px;
+  gap: 155px; }
+  .header__middle__left {
+    padding: 12px 0; }
+  .header__middle__m {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #e5e5e5; }
+    .header__middle__m .cat__button {
+      display: flex;
+      justify-content: center;
+      align-items: center; }
+      .header__middle__m .cat__button button {
+        background: transparent;
+        border: none;
+        padding-left: 23px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-right: 40px;
+        font-size: 16px;
+        color: #252525; }
+      .header__middle__m .cat__button i {
+        color: #b2b2b2;
+        font-size: 10px; }
+    .header__middle__m .search__input input {
+      border: none;
+      padding-left: 20px;
+      padding-right: 100px;
+      border-left: 1px solid red; }
+      .header__middle__m .search__input input::placeholder {
+        font-size: 15px; }
+    .header__middle__m .search__input button {
+      font-size: 16px;
+      color: #fff;
+      position: absolute;
+      border: 1px solid #e7ab3c;
+      background-color: #e7ab3c;
+      padding: 15px 15px;
+      top: -16px; }
+      .header__middle__m .search__input button i {
+        font-size: 15px; }
+  .header__middle__right ul {
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+
+body {
+  font-family: "Muli"; }
+  body a {
+    text-decoration: none; }

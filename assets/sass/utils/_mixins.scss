@@ -1,0 +1,14 @@
+@mixin centerdiv($display,$jcc,$align){
+    display: $display;
+    justify-content: $jcc;
+    align-items: $align;
+}
+@mixin components($color,$padding,$gap){
+    color: $color;
+    padding: $padding;
+    gap: $gap;
+}
+@mixin type($font-size,$line-height){
+    font-size: $font-size;
+    line-height: $line-height;
+}
